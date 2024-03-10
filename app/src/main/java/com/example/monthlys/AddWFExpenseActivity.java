@@ -62,6 +62,7 @@ public class AddWFExpenseActivity extends AppCompatActivity {
                 WFExpense expense = new WFExpense(expenseId, expenseDescription, expenseAmount, expenseDate, expensePersons);
 
                 // Save the expense object to Firebase Database under "WFExpenses" node with the unique expenseId
+                assert expenseId != null;
                 expensesRef.child(expenseId).setValue(expense)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
