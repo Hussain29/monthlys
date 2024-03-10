@@ -18,7 +18,6 @@
         android:hint="Expense Description"
         app:boxStrokeWidth="0dp">
 
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etExpenseDescription"
             android:layout_width="match_parent"
