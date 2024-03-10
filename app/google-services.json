@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "592891937038",
+    "firebase_url": "https://monthlys-318ea-default-rtdb.firebaseio.com",
+    "project_id": "monthlys-318ea",
+    "storage_bucket": "monthlys-318ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592891937038:android:1f6d8373fc3264586a975f",
+        "android_client_info": {
+          "package_name": "com.example.monthlys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwvVg7ORuwFncIjA-m6KbBpnyxux4-wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

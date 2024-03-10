@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <!-- TextView to display the amount remaining -->
+    <TextView
+        android:id="@+id/textViewAmountRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginTop="16dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:layout_below="@id/textViewAmountRemaining"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView to display the list of expenses -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddExpense"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to add a new expense -->
+
+</RelativeLayout>
